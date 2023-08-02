@@ -130,6 +130,10 @@ img {
   color: #404bbf;
 }
 
+.current-portfolio {
+  color: #404bbf;
+}
+
 .current-studio::after {
   background-color: #404bbf;
   position: absolute;
