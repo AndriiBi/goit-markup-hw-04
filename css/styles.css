@@ -435,6 +435,7 @@ img {
 .custom-link {
   width: 100%;
   height: 100%;
+  color: #8e8f99;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   display: flex;
@@ -455,7 +456,7 @@ img {
 }
 
 .custom-icon {
-  fill: #8e8f99;
+  fill: currentColor;
 }
 
 .custom-icon:hover,
