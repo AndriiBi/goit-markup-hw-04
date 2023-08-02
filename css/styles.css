@@ -66,6 +66,8 @@ img {
 
 .page-header {
   border-bottom: solid 1px #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-container {
@@ -110,9 +112,6 @@ img {
   letter-spacing: 0.03em;
 }
 
-.nav-list-item {
-}
-
 .header-link {
   position: relative;
   display: block;
@@ -125,6 +124,10 @@ img {
   padding-bottom: 24px;
   gap: 40px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.current-studio {
+  color: #404bbf;
 }
 
 .current-studio::after {
@@ -185,7 +188,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-size: 16px;
-  transition: color 250ms (0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-link:hover,
@@ -203,8 +206,9 @@ img {
     url(../images/working-people-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 1440px;
+  background-size: cover;
   padding: 188px 0;
+  max-width: 1440px;
 }
 
 .main-section-title {
